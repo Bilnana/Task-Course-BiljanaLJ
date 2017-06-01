@@ -1,0 +1,375 @@
+/****** Colors ******/
+/****** Colors ******/
+/************ SLIDER WITH TEXT *************/
+.crausel-inner {
+  height: 770px;
+}
+
+.crausel-inner .item {
+  height: 100%;
+  width: 100%;
+}
+
+/* Carousel Overlay */
+.carousel-overlay {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+}
+
+.carousel-overlay .text-box {
+  padding-left: 23%;
+  width: 100%;
+}
+
+.carousel-overlay .title-text {
+  font-size: 60px;
+  font-family: "Gentium Book Basic";
+}
+
+.carousel-overlay .title-text a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.carousel-overlay .title-text a:hover {
+  color: #ffff66;
+}
+
+.carousel-overlay .headline-text {
+  font-size: 30px;
+  font-family: "Gentium Book Italic";
+}
+
+.carousel-overlay .headline-text a {
+  text-decoration: none;
+  color: #d9d9d9;
+}
+
+.carousel-overlay .headline-text a:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 65px;
+  background: #ffff66;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+
+.carousel-overlay .headline-text a:hover:before, a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.carousel-overlay .author-text {
+  font-size: 12px;
+  font-family: "OpenSans Bold";
+  color: #d9d9d9;
+}
+
+.carousel-overlay .id-text {
+  font-size: 12px;
+  font-family: "OpenSans Bold";
+  color: #ffffff;
+  display: inline;
+}
+
+.carousel-overlay img {
+  display: inline;
+}
+
+.carousel-overlay ul {
+  display: inline;
+  padding-left: 28%;
+}
+
+.carousel-overlay li {
+  display: inline;
+  padding-left: 30px;
+}
+
+.carousel-overlay li a {
+  font-size: 14px;
+  color: #ffff66;
+}
+
+.carousel-overlay li a:hover {
+  color: #ff3300;
+  background-color: #ffffcc;
+}
+
+/************ SLIDER WITH TEXT *************/
+/************ CONTENT *************/
+.content-text {
+  text-align: left;
+}
+
+.content .table {
+  font-size: 22px;
+  font-family: "Gentium Book Basic";
+}
+
+.content .table tr {
+  border-top: none;
+  padding-top: 50px;
+}
+
+.content .table th {
+  border-top: none;
+  font-size: 22px;
+  font-family: "GentiumBasic";
+  color: rgba(191, 191, 191, 0.49);
+  padding-top: 50px;
+}
+
+.content .table td {
+  border-top: none;
+  font-size: 22px;
+  font-family: "Gentium Book Basic";
+  color: #191919;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.content .table p {
+  font-size: 30px;
+  font-family: "Gentium Book Italic";
+  color: #191919;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.content .table .this {
+  font-size: 22px;
+  font-family: "Gentium Book Basic";
+  color: #191919;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.content-text .btn-wraper {
+  padding-left: 43%;
+}
+
+.content-text a {
+  font-size: 12px;
+  font-family: "OpenSans Bold";
+  color: #191919;
+  border-radius: 28px;
+  margin-bottom: 20px;
+  color: rgba(191, 191, 191, 0.49);
+}
+
+/************ CONTENT *************/
+/************ FOOTER *************/
+.footer .footer-box {
+  text-align: center;
+  height: 258px;
+}
+
+.footer .footer-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer .overlay {
+  position: relative;
+  margin-top: -150px;
+}
+
+.footer-box button {
+  border-radius: 28px;
+  border: 4px solid #4eba6f;
+  background: #ffffff;
+  color: #4eba6f;
+  padding: 14px 30px 14px 30px;
+  font-size: 12px;
+  font-family: "OpenSans";
+  text-align: left;
+}
+
+.footer-box button:hover {
+  border: 4px solid #4eba6f;
+  background: #4eba6f;
+  color: #ffffff;
+}
+
+/************ FOOTER *************/
+/************ FOOTER-ABOVE *************/
+.footer-abowe .foot1 {
+  height: 360px;
+  padding-left: 0;
+  padding-right: 0;
+  opacity: 0.80;
+}
+
+.footer-abowe .foot1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-abowe .foot1 .overlay {
+  position: relative;
+  margin-top: -230px;
+  text-align: left;
+  margin-left: 36px;
+}
+
+.footer-abowe .foot1 .overlay .one {
+  font-size: 15px;
+  font-family: "OpenSans Bold";
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer-abowe .foot1 .overlay .two {
+  font-size: 30px;
+  font-family: "Gentium Book Basic";
+  color: #ffffff;
+}
+
+.footer-abowe .foot1 .overlay .three {
+  font-size: 30px;
+  font-family: "Gentium Book Italic";
+  color: #d9d9d9;
+}
+
+.footer-abowe .foot2 {
+  height: 360px;
+  padding-left: 0;
+  padding-right: 0;
+  opacity: 0.80;
+}
+
+.footer-abowe .foot2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-abowe .foot2 .overlay {
+  position: relative;
+  margin-top: -230px;
+  text-align: left;
+  margin-left: 36px;
+}
+
+.footer-abowe .foot2 .overlay .one {
+  font-size: 15px;
+  font-family: "OpenSans Bold";
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer-abowe .foot2 .overlay .two {
+  font-size: 30px;
+  font-family: "Gentium Book Basic";
+  color: #ffffff;
+}
+
+.footer-abowe .foot2 .overlay .three {
+  font-size: 30px;
+  font-family: "Gentium Book Italic";
+  color: #d9d9d9;
+}
+
+.share {
+  width: 600px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+/************ FOOTER-ABOVE *************/
+/********  BODY AND ROOWS *********/
+body {
+  background-color: #ffffff;
+}
+
+.row-content {
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+/********  BODY AND ROOWS *********/
+/********  MIXINS FOR NEW CONTAINER *********/
+@media (min-width: 360px) {
+  .my-custom-container {
+    width: 360px;
+  }
+  body {
+    font-size: 1em;
+  }
+  .row-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .my-custom-container {
+    width: 600px;
+  }
+  body {
+    font-size: 1em;
+  }
+  .row-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .my-custom-container {
+    width: 720px;
+  }
+  body {
+    font-size: 1.2em;
+  }
+  .row-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-custom-container {
+    width: 1440px;
+  }
+  body {
+    font-size: 1.3em;
+  }
+}
+
+/********  MIXINS FOR NEW CONTAINER *********/
+@font-face {
+  font-family: 'Gentium Book Basic';
+  src: url("../fonts/GenBkBasR.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gentium Book Italic';
+  src: url("../fonts/GenBkBasI.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GenBkBasBI';
+  src: url("../fonts/GenBkBasBI.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans Bold';
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url("../fonts/OpenSans-Semibold.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=main.css.map */

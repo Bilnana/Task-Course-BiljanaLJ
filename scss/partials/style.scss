@@ -1,0 +1,65 @@
+/********  BODY AND ROOWS *********/
+body {
+    background-color: $white;
+}
+
+.row-content{
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+/********  BODY AND ROOWS *********/
+
+
+
+/********  MIXINS FOR NEW CONTAINER *********/
+@media (min-width: 360px) {
+    .my-custom-container{
+        width:360px;
+    }
+     body {
+        font-size: 1em;
+        }
+    .row-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (min-width: 768px) {
+    .my-custom-container{
+        width:600px;
+    }
+     body {
+        font-size: 1em;
+        }
+    .row-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .my-custom-container{
+        width:720px;
+    }
+     body {
+        font-size: 1.2em;
+    }
+    .row-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .my-custom-container{
+        width:1440px;
+    }
+    body {
+            font-size: 1.3em;
+        }
+}
+
+/********  MIXINS FOR NEW CONTAINER *********/
+
