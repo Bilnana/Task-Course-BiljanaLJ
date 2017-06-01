@@ -1,0 +1,297 @@
+
+/************ SLIDER WITH TEXT *************/
+.crausel-inner{
+   height: 770px;
+}
+
+.crausel-inner .item{
+    height:100%;
+    width:100%;
+}
+/* Carousel Overlay */
+.carousel-overlay {
+	position: absolute;
+	bottom: 50px;
+	right: 0;
+	left: 0;
+}
+.carousel-overlay .text-box {
+    padding-left:23%;
+    width:100%;
+}
+
+.carousel-overlay .title-text{
+  font-size: 60px;
+  font-family: "Gentium Book Basic";
+}
+
+.carousel-overlay .title-text a{
+  text-decoration:none;
+  color: $white;
+}
+.carousel-overlay .title-text a:hover{
+  color: $yellow;
+}
+
+.carousel-overlay .headline-text{
+  font-size: 30px;
+  font-family: "Gentium Book Italic";
+}
+
+.carousel-overlay .headline-text a{
+    text-decoration: none;
+    color: $grey;
+}
+
+.carousel-overlay .headline-text a:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 65px;
+  background: $yellow;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+
+.carousel-overlay .headline-text a:hover:before, a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.carousel-overlay .author-text{
+  font-size: 12px;
+  font-family: "OpenSans Bold";
+  color: $grey;
+}
+
+.carousel-overlay .id-text{
+  font-size: 12px;
+  font-family: "OpenSans Bold";
+  color: $white;
+  display: inline;
+}
+
+.carousel-overlay img{
+    display: inline;
+}
+
+.carousel-overlay ul{
+    display: inline;
+    padding-left: 28%;
+}
+
+.carousel-overlay li{
+    display: inline;
+    padding-left: 30px;
+}
+
+.carousel-overlay li a{
+   font-size: 14px;
+   color: $yellow;
+}
+
+.carousel-overlay li a:hover{
+   color: $red;
+   background-color: $pure-yellow;
+}
+
+/************ SLIDER WITH TEXT *************/
+
+
+
+/************ CONTENT *************/
+.content-text{
+    text-align: left;
+}
+
+.content .table{
+    font-size: 22px;
+    font-family: "Gentium Book Basic";  
+}
+
+.content .table tr{
+    border-top: none;
+    padding-top: 50px;
+}
+
+.content .table th{
+    border-top: none;
+    font-size: 22px;
+    font-family: "GentiumBasic";
+    color: rgba(191, 191, 191, 0.49);
+    padding-top: 50px;
+}
+
+.content .table td{
+    border-top: none;
+    font-size: 22px;
+    font-family: "Gentium Book Basic";
+    color: rgb(25, 25, 25);
+    padding-top: 50px;
+    text-align:left;
+}
+.content .table p{
+    font-size: 30px;
+    font-family: "Gentium Book Italic";
+    color: rgb(25, 25, 25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.content .table .this{
+    font-size: 22px;
+    font-family: "Gentium Book Basic";
+    color: rgb(25, 25, 25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+
+.content-text .btn-wraper{
+    padding-left: 43%;
+}
+
+.content-text a{
+   font-size: 12px;
+   font-family: "OpenSans Bold";
+   color: rgb(25, 25, 25);
+   border-radius: 28px;
+   margin-bottom: 20px;
+   color: rgba(191, 191, 191, 0.49);
+}
+/************ CONTENT *************/
+
+
+/************ FOOTER *************/
+ .footer .footer-box {
+    text-align:center;
+    height: 258px;
+   
+}
+ .footer .footer-box img{
+   width: 100%;
+   height:100%;
+}
+
+.footer .overlay{
+    position: relative;;
+    margin-top: -150px;
+}
+
+.footer-box button{
+    border-radius: 28px;
+    border: 4px solid $green;
+    background: $white;
+    color: $green;
+    padding: 14px 30px 14px 30px;
+    font-size: 12px;
+    font-family: "OpenSans";
+    text-align: left;
+}
+
+.footer-box button:hover{
+    border: 4px solid $green;
+    background: $green;
+    color: $white;
+}
+
+/************ FOOTER *************/
+
+
+/************ FOOTER-ABOVE *************/
+
+.footer-abowe .foot1 {
+   height:360px;
+    padding-left:0;
+    padding-right:0;
+    opacity: 0.80;
+}
+
+.footer-abowe .foot1 img {
+    height:100%;
+    width:100%;
+}
+
+.footer-abowe  .foot1 .overlay{
+    position: relative;
+    margin-top: -230px; 
+    text-align: left;
+    margin-left: 36px;
+}
+
+.footer-abowe  .foot1 .overlay .one{
+   font-size: 15px;
+   font-family: "OpenSans Bold";
+   color:$white;
+   padding-bottom: 20px;
+}
+
+.footer-abowe .foot1 .overlay .two{
+   font-size: 30px;
+   font-family: "Gentium Book Basic";
+   color:$white;
+}
+
+.footer-abowe .foot1 .overlay .three{
+   font-size: 30px;
+   font-family: "Gentium Book Italic";
+   color:$grey;
+}
+//foot2
+
+.footer-abowe .foot2 {
+   height:360px;
+   padding-left:0;
+   padding-right:0;
+   opacity: 0.80;
+    
+}
+
+.footer-abowe .foot2 img {
+    height:100%;
+    width:100%;
+}
+
+.footer-abowe  .foot2 .overlay{
+    position: relative;
+    margin-top: -230px; 
+    text-align: left;
+    margin-left: 36px;
+}
+
+.footer-abowe  .foot2 .overlay .one{
+   font-size: 15px;
+   font-family: "OpenSans Bold";
+   color:$white;
+   padding-bottom: 20px;
+}
+
+.footer-abowe .foot2 .overlay .two{
+   font-size: 30px;
+   font-family: "Gentium Book Basic";
+   color:$white;
+}
+
+.footer-abowe .foot2 .overlay .three{
+   font-size: 30px;
+   font-family: "Gentium Book Italic";
+   color:$grey;
+}
+
+.share{
+    width:600px;
+    height:400px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+/************ FOOTER-ABOVE *************/
+
+
+
+
